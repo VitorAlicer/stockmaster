@@ -1,0 +1,21 @@
+# ignore all logs
+*.log
+
+#ignore bat
+*.bat
+
+# ignore folder
+baca/
+doc/
+file/
+#assets/adminLTE/
+#assets/dropzone/
+#assets/font-awesome/
+#assets/ionicons/
+
+# ignore special files
+#.htaccess
+
+# ignore config files
+#route.php
+#lib/MYSQL.PDO.php
