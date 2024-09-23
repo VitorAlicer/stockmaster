@@ -9,7 +9,7 @@
       if($key == $uf_selected || ($mode == "new" && $key == "RS")) {
          $selected = "selected"; // Define a opção como selecionada
       }
-      // Exibe a opção no <select> com valor da chave e nome do estado em maiúsculas
+      // Mostra a opção no <select> com valor da chave e nome do estado em maiúsculas
       echo '<option value="'.$key.'" '.$selected.'>'.mb_strtoupper($value).'</option>';
    }
    ?>
