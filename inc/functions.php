@@ -398,6 +398,6 @@ function saveLog($message) {
    if ($logLine = fopen("_app_errors.log", "a")) { // Abre o arquivo de log de erros em modo de adição
       $message = date("[d-m-Y H:i:s] ")."[".(defined('USUARIO')?USUARIO:"SYSTEM")."] ".$message."\r\n"; // Formata a mensagem com data e usuário
       fwrite($logLine, $message); // Escreve a mensagem no log
-      fclose($logLine); // Fecha o arquivo de log
+      fclose($logLine); // Fecha a log
    }
 }
