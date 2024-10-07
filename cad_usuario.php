@@ -129,7 +129,7 @@ if($mode == "edit") {
                                  <div class="radio-inline"><label><input type="radio" name="cod_perfil[]" value="2" <?=iif($row->cod_perfil == 2, "checked", "")?> />&nbsp;Financeiro</label></div>
                                  <div class="radio-inline"><label><input type="radio" name="cod_perfil[]" value="3" <?=iif($row->cod_perfil == 3, "checked", "")?> />&nbsp;Atendente</label></div>
                                  <div class="radio-inline"><label><input type="radio" name="cod_perfil[]" value="4" <?=iif($row->cod_perfil == 4, "checked", "")?> />&nbsp;Administrativo</label></div>
-                                 <div class="radio-inline"><label><input type="radio" name="cod_perfil[]" value="5" <?=iif($row->cod_perfil == 5, "checked", "")?> />&nbsp;Produção</label></div>
+               
                               </div>
                            </div>
                            <div class="form-group">
