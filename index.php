@@ -94,7 +94,7 @@ try{
    <link rel="stylesheet" href="assets/adminLTE/plugins/chosen/chosen.min.css">
    <link rel="stylesheet" href="assets/dropzone/min/dropzone.min.css">
    <link rel="stylesheet" href="assets/sm.css">
-   <link rel="icon" type="image/png" href="img/favicon.ico">
+   <link rel="icon" type="image/png" href="img/favicon.png">
    <script src="assets/adminLTE/plugins/jQuery/jquery-2.2.3.min.js"></script>
    <script src="assets/adminLTE/plugins/jQueryUI/jquery-ui.min.js"></script>
    <script src="assets/adminLTE/bootstrap/js/bootstrap.min.js"></script>
