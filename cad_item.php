@@ -195,7 +195,7 @@ $lista_un = $service->getItemUnidadeList();
 </section>
 
 <script>
-// Função para configurar o tipo de item selecionado (Normal, Com Variação, Com Medida)
+// Função para configurar o tipo de item selecionado(Normal, Com Variação, Com Medida)
 function setTipoItem(tipo) {
    $(".campoMedida").hide(); // Esconde o campo de medida
    if(tipo == "3") $(".campoMedida").show(); // Mostra o campo de medida se o tipo for 3

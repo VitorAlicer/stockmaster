@@ -225,7 +225,7 @@ $row = $service->getEmpresa($codigo);
                   <div class="form-group">
                      <!-- Rótulo do campo "UF" -->
                      <label for="uf" class="col-sm-2 control-label">UF</label>
-                     <!-- Campo de seleção para o estado (UF), incluindo o arquivo que contém as opções de estados -->
+                     <!-- Campo de seleção para o estado (UF) incluindo o arquivo que contém as opções de estados -->
                      <div class="col-sm-8">
                         <?php
                            $uf_selected = $row->uf;

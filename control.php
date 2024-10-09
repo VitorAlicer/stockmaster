@@ -70,7 +70,7 @@ try {
                     }
                 break; // Fim do case 'nome'.
             }
-        break; // Fim do case 'validateItem'.
+        break; //Fim do case 'validateItem'.
 
         case "validatePerfil": // Caso a ação seja validar perfil.
             switch ($metodo) { // Verifica o método de validação.

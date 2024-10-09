@@ -226,7 +226,7 @@ if($mode == "edit") {
          campo.focus(); // Foca no campo de nome do usuário.
       }
 
-      // Valida o campo de senha.
+      //Valida o campo de senha.
       campo = document.getElementById('senha');
       if(modo == 'new' && campo.value == '') { // Se for novo e o campo estiver vazio.
          erro = true; // Define erro como verdadeiro.

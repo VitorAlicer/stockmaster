@@ -11,7 +11,7 @@
       </div>
    </div>
 </div>
-<!-- Fim da seção para avisos informativos -->
+<!--Fim da seção para avisos informativos -->
 
 <!-- Início da seção para mensagens de erro -->
 <div id="box-error" class="row" style="display:none;">

@@ -231,7 +231,7 @@ if($mode == "edit") {
             // Exibe o botão de salvar se o perfil permitir
             echo '<button type="button" class="btn btn-success pull-left submit"><i class="fa fa-check"></i>&nbsp;Salvar</button>';
          }
-         // Exibe o botão de excluir se o perfil permitir e se o modo for de edição
+         //Exibe o botão de excluir se o perfil permitir e se o modo for de edição
          if(PERFIL < 1 /*Root*/ && $mode == "edit") {
             echo '<button type="button" class="btn btn-danger pull-right" onclick="NUrl.deleteCad(\''.$programa->nome_programa.'\',\''.$row->cod_programa.'\')"><i class="fa fa-trash"></i>&nbsp;Excluir</button>';
          }

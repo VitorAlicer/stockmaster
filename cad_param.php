@@ -138,7 +138,7 @@ $ar_dias_uteis = explode(',', $row->dias_uteis);
             </div><!-- /.row -->
          </div><!-- /.box-body -->
 
-         <!-- Botões de ação -->
+         <!--Botões de ação -->
          <div class="box-footer">
          </div><!-- /.box-footer -->
 
